@@ -19,9 +19,9 @@ def bubblesort(array):
         print(array)
         for j in range(n-1): 
             if array[j] > array[j+1]:
-                copy = array[j] 
+                tmp = array[j] 
                 array[j] = array[j+1]
-                array[j+1] = copy
+                array[j+1] = tmp
     return array
 
 
