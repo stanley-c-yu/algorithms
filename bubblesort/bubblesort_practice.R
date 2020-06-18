@@ -1,4 +1,4 @@
-bubblesort <- function(arr) { 
+bubbleSort <- function(arr) { 
   n = length(arr)
   for (i in 1:n) {
     print(arr)
