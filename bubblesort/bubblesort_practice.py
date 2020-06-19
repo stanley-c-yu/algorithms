@@ -13,15 +13,15 @@ for i in range(0,5):
     n = random.randint(1,30)
     randomlist.append(n)
 
-def bubblesort(arr): 
-    n = len(arr)
+def bubblesort(arr) :
+    n = len(arr) 
     for i in range(n): 
-        print(arr) 
+        print(arr)
         for j in range(n-1):
             if arr[j] > arr[j+1]:
-                copy = arr[j] 
+                copy = arr[j]
                 arr[j] = arr[j+1]
-                arr[j+1] = copy
+                arr[j+1] = copy 
     return arr
 
 bubblesort(randomlist)
